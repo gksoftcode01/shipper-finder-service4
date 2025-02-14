@@ -1,0 +1,259 @@
+entity StateProvince {
+    name String
+    localName String
+    isoCode String
+}
+entity Country {
+    name String
+    localName String
+    iso2 String
+    iso3 String
+    numericCode String
+    phoneCode String
+    currency String
+    currencyName String
+    currencySymbol String
+    emoji String
+    emojiU String
+}
+
+enum ReportStatus {
+    NEW,
+    UNDER_PROCESS,
+    COMPLETED
+}
+entity ReportAbuse {
+    reportByEncId UUID,
+    reportedAgainstEncId UUID,
+    reportDate Instant,
+    reportData String,
+    reportStatus ReportStatus
+}
+
+entity UserRate {
+    rate Long
+    note String
+    rateDate Instant
+    ratedByEncId UUID
+    ratedEncId UUID
+}
+
+entity ItemType {
+    name String required
+    nameEn String
+    nameAr String
+    nameFr String
+    nameDe String
+    nameUrdu String
+    isActive Boolean
+}
+
+entity Item {
+    name String
+    nameEn String
+    nameAr String
+    nameFr String
+    nameDe String
+    nameUrdu String
+    isActive Boolean
+    defaultUOM String
+}
+enum GenderType {
+    MALE
+    FEMALE
+    OTHER
+}
+entity AppUser {
+    birthDate Instant
+    gender GenderType
+    registerDate Instant
+    phoneNumber String
+    mobileNumber String
+    fullName String
+    isVerified Boolean
+    userId Long
+    firstName String
+    lastName String
+    encId UUID
+
+}
+
+entity AppUserDevice {
+    deviceCode String
+    notificationToken String
+    lastLogin Instant
+    active Boolean
+    userEncId UUID
+}
+enum SubscribeTypeEnum {
+    NORMAL
+    PREMIUM
+    CORPORATE
+}
+entity SubscribeType {
+    type SubscribeTypeEnum
+    nameEn String
+    nameAr String
+    nameFr String
+    nameDe String
+    nameUrdu String
+    details TextBlob
+    detailsEn String
+    detailsAr String
+    detailsFr String
+    detailsDe String
+    detailsUrdu String
+}
+entity SubscribeTypeDetail {
+    price Float
+    maxTrip Integer
+    maxItems Integer
+    maxRequest Integer
+    maxNumberView Integer
+}
+entity UserSubscribe {
+    fromDate Instant
+    toDate Instant
+    isActive Boolean
+    subscribedUserEncId UUID
+}
+
+entity Languages {
+    name String
+}
+entity Trip {
+    tripDate Instant
+    arriveDate Instant
+    maxWeight Long
+    notes String
+    createDate Instant
+    isNegotiate Boolean
+    status TripStatus
+    createdByEncId UUID
+    encId UUID
+}
+entity Tag {
+    name String
+    nameEn String
+    nameAr String
+    nameFr String
+    nameDe String
+    nameUrdu String
+    iconUrl String
+}
+entity Unit {
+    name String
+    nameEn String
+    nameAr String
+    nameFr String
+    nameDe String
+    nameUrdu String
+}
+entity TripItem {
+    itemPrice Float
+    maxQty Long
+}
+
+enum CargoRequestStatus {
+    NEW
+    PENDING
+    CANCELLED
+    PUBLISHED
+    REJECTED
+    COMPLETED
+}
+entity CargoRequest {
+    createDate Instant
+    validUntil Instant
+    status CargoRequestStatus
+    isNegotiable Boolean
+    budget Float
+    createdByEncId UUID
+    takenByEncId UUID
+    encId UUID
+}
+entity CargoRequestItem {
+    maxQty Long
+    photoUrl String
+}
+
+entity ShowNumberHistory {
+    createdDate Instant
+    actionByEncId UUID
+    entityType Integer
+    entityEncId UUID
+}
+
+enum TripStatus {
+    NEW
+    PENDING
+    CANCELLED
+    PUBLISHED
+    REJECTED
+    COMPLETED
+}
+
+entity TripMsg {
+    msg String
+    fromUserEncId UUID
+    toUserEncId UUID
+    tripId Long
+}
+entity CargoMsg {
+    msg String
+    fromUserEncId UUID
+    toUserEncId UUID
+    cargoRequestId Long
+}
+relationship OneToOne {
+    @OnDelete("CASCADE") SubscribeTypeDetail{subscribeType(nameEn)} to SubscribeType
+}
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+    Country to StateProvince{Country(name)}
+    @OnDelete("CASCADE") CargoRequest{items} to CargoRequestItem
+    @OnDelete("CASCADE") Trip{items} to TripItem
+}
+
+relationship ManyToOne {
+    UserSubscribe{subscribeType(type)} to SubscribeType
+    Trip{fromCountry(name)} to Country
+    Trip{toCountry(name)} to Country
+    Trip{fromState(name)} to StateProvince
+    Trip{toState(name)} to StateProvince
+    CargoRequest{fromCountry(name)} to Country
+    CargoRequest{toCountry(name)} to Country
+    CargoRequest{fromState(name)} to StateProvince
+    CargoRequest{toState(name)} to StateProvince
+    AppUser{preferdLanguage(name)} to Languages
+    AppUser{location(name)} to Country
+    Item{itemType(name)} to ItemType
+    TripItem{item(name)} to Item
+    CargoRequestItem{item(name)} to Item
+    TripItem{unit(name)} to Unit
+    CargoRequestItem{unit(name)} to Unit
+}
+
+
+/**
+ * Many to many relationship.
+ */
+relationship ManyToMany {
+    //    SubscribeType to AppUser
+    TripItem{tag(name)} to Tag
+    CargoRequestItem{tag(name)} to Tag
+}
+
+// Set pagination options
+paginate all with infinite-scroll
+
+// Use Data Transfer Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
+
+filter Trip, CargoRequest, TripItem, Item, ItemType, CargoRequestItem, StateProvince, Country, AppUser, UserSubscribe, SubscribeType, CargoMsg, TripMsg, Unit, AppUserDevice, ShowNumberHistory
