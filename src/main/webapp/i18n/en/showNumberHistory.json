@@ -1,0 +1,28 @@
+{
+  "shipperfinderservice4App": {
+    "showNumberHistory": {
+      "home": {
+        "title": "Show Number Histories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Show Number History",
+        "createOrEditLabel": "Create or edit a Show Number History",
+        "search": "Search for Show Number History",
+        "notFound": "No Show Number Histories found"
+      },
+      "created": "A new Show Number History is created with identifier { param }",
+      "updated": "A Show Number History is updated with identifier { param }",
+      "deleted": "A Show Number History is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Show Number History { id }?"
+      },
+      "detail": {
+        "title": "Show Number History"
+      },
+      "id": "ID",
+      "createdDate": "Created Date",
+      "actionByEncId": "Action By Enc Id",
+      "entityType": "Entity Type",
+      "entityEncId": "Entity Enc Id"
+    }
+  }
+}

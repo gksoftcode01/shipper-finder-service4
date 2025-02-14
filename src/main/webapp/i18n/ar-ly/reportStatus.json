@@ -1,0 +1,10 @@
+{
+  "shipperfinderservice4App": {
+    "ReportStatus": {
+      "null": "",
+      "NEW": "NEW",
+      "UNDER_PROCESS": "UNDER_PROCESS",
+      "COMPLETED": "COMPLETED"
+    }
+  }
+}

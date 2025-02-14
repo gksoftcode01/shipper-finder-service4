@@ -1,0 +1,28 @@
+{
+  "shipperfinderservice4App": {
+    "tripMsg": {
+      "home": {
+        "title": "Trip Msgs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Trip Msg",
+        "createOrEditLabel": "Create or edit a Trip Msg",
+        "search": "Search for Trip Msg",
+        "notFound": "No Trip Msgs found"
+      },
+      "created": "A new Trip Msg is created with identifier { param }",
+      "updated": "A Trip Msg is updated with identifier { param }",
+      "deleted": "A Trip Msg is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Trip Msg { id }?"
+      },
+      "detail": {
+        "title": "Trip Msg"
+      },
+      "id": "ID",
+      "msg": "Msg",
+      "fromUserEncId": "From User Enc Id",
+      "toUserEncId": "To User Enc Id",
+      "tripId": "Trip Id"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "shipperfinderservice4App": {
+    "subscribeTypeDetail": {
+      "home": {
+        "title": "Subscribe Type Details",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Subscribe Type Detail",
+        "createOrEditLabel": "Create or edit a Subscribe Type Detail",
+        "search": "Search for Subscribe Type Detail",
+        "notFound": "No Subscribe Type Details found"
+      },
+      "created": "A new Subscribe Type Detail is created with identifier { param }",
+      "updated": "A Subscribe Type Detail is updated with identifier { param }",
+      "deleted": "A Subscribe Type Detail is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Subscribe Type Detail { id }?"
+      },
+      "detail": {
+        "title": "Subscribe Type Detail"
+      },
+      "id": "ID",
+      "price": "Price",
+      "maxTrip": "Max Trip",
+      "maxItems": "Max Items",
+      "maxRequest": "Max Request",
+      "maxNumberView": "Max Number View",
+      "subscribeType": "Subscribe Type"
+    }
+  }
+}

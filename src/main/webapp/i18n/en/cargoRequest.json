@@ -1,0 +1,37 @@
+{
+  "shipperfinderservice4App": {
+    "cargoRequest": {
+      "home": {
+        "title": "Cargo Requests",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Cargo Request",
+        "createOrEditLabel": "Create or edit a Cargo Request",
+        "search": "Search for Cargo Request",
+        "notFound": "No Cargo Requests found"
+      },
+      "created": "A new Cargo Request is created with identifier { param }",
+      "updated": "A Cargo Request is updated with identifier { param }",
+      "deleted": "A Cargo Request is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Cargo Request { id }?"
+      },
+      "detail": {
+        "title": "Cargo Request"
+      },
+      "id": "ID",
+      "createDate": "Create Date",
+      "validUntil": "Valid Until",
+      "status": "Status",
+      "isNegotiable": "Is Negotiable",
+      "budget": "Budget",
+      "createdByEncId": "Created By Enc Id",
+      "takenByEncId": "Taken By Enc Id",
+      "encId": "Enc Id",
+      "items": "Items",
+      "fromCountry": "From Country",
+      "toCountry": "To Country",
+      "fromState": "From State",
+      "toState": "To State"
+    }
+  }
+}

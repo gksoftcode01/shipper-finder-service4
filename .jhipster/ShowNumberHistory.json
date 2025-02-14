@@ -1,0 +1,30 @@
+{
+  "annotations": {
+    "changelogDate": "20250214212310"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "createdDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "actionByEncId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "entityType",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "entityEncId",
+      "fieldType": "UUID"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "ShowNumberHistory",
+  "pagination": "infinite-scroll",
+  "relationships": [],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,29 @@
+{
+  "shipperfinderservice4App": {
+    "userSubscribe": {
+      "home": {
+        "title": "User Subscribes",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء User Subscribe جديد",
+        "createOrEditLabel": "إنشاء أو تعديل User Subscribe",
+        "search": "البحث عن User Subscribe",
+        "notFound": "لم يتم العثور على User Subscribes"
+      },
+      "created": "User Subscribe جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "User Subscribe تم تحديثه بالمعرف { param }",
+      "deleted": "User Subscribe تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف User Subscribe { id }؟"
+      },
+      "detail": {
+        "title": "User Subscribe"
+      },
+      "id": "ID",
+      "fromDate": "From Date",
+      "toDate": "To Date",
+      "isActive": "Is Active",
+      "subscribedUserEncId": "Subscribed User Enc Id",
+      "subscribeType": "Subscribe Type"
+    }
+  }
+}

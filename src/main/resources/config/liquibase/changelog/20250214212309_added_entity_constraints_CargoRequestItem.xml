@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <!--
+        Added the constraints for entity CargoRequestItem.
+    -->
+    <changeSet id="20250214212309-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="item_id"
+                                 baseTableName="cargo_request_item"
+                                 constraintName="fk_cargo_request_item__item_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="item"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="unit_id"
+                                 baseTableName="cargo_request_item"
+                                 constraintName="fk_cargo_request_item__unit_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="unit"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="cargo_request_item_id"
+                                 baseTableName="rel_cargo_request_item__tag"
+                                 constraintName="fk_rel_cargo_request_item__tag__cargo_request_item_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="cargo_request_item"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="tag_id"
+                                 baseTableName="rel_cargo_request_item__tag"
+                                 constraintName="fk_rel_cargo_request_item__tag__tag_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tag"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="cargo_request_id"
+                                 baseTableName="cargo_request_item"
+                                 constraintName="fk_cargo_request_item__cargo_request_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="cargo_request"
+                                 onDelete="CASCADE"
+                                 />
+    </changeSet>
+</databaseChangeLog>

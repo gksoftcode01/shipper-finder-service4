@@ -1,0 +1,36 @@
+{
+  "shipperfinderservice4App": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Country",
+        "createOrEditLabel": "Create or edit a Country",
+        "search": "Search for Country",
+        "notFound": "No Countries found"
+      },
+      "created": "A new Country is created with identifier { param }",
+      "updated": "A Country is updated with identifier { param }",
+      "deleted": "A Country is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Country { id }?"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "id": "ID",
+      "name": "Name",
+      "localName": "Local Name",
+      "iso2": "Iso 2",
+      "iso3": "Iso 3",
+      "numericCode": "Numeric Code",
+      "phoneCode": "Phone Code",
+      "currency": "Currency",
+      "currencyName": "Currency Name",
+      "currencySymbol": "Currency Symbol",
+      "emoji": "Emoji",
+      "emojiU": "Emoji U",
+      "stateProvince": "State Province"
+    }
+  }
+}

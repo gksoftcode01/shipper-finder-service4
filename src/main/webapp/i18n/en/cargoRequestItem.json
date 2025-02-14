@@ -1,0 +1,30 @@
+{
+  "shipperfinderservice4App": {
+    "cargoRequestItem": {
+      "home": {
+        "title": "Cargo Request Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Cargo Request Item",
+        "createOrEditLabel": "Create or edit a Cargo Request Item",
+        "search": "Search for Cargo Request Item",
+        "notFound": "No Cargo Request Items found"
+      },
+      "created": "A new Cargo Request Item is created with identifier { param }",
+      "updated": "A Cargo Request Item is updated with identifier { param }",
+      "deleted": "A Cargo Request Item is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Cargo Request Item { id }?"
+      },
+      "detail": {
+        "title": "Cargo Request Item"
+      },
+      "id": "ID",
+      "maxQty": "Max Qty",
+      "photoUrl": "Photo Url",
+      "item": "Item",
+      "unit": "Unit",
+      "tag": "Tag",
+      "cargoRequest": "Cargo Request"
+    }
+  }
+}

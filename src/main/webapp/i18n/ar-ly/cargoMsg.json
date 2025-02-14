@@ -1,0 +1,28 @@
+{
+  "shipperfinderservice4App": {
+    "cargoMsg": {
+      "home": {
+        "title": "Cargo Msgs",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Cargo Msg جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Cargo Msg",
+        "search": "البحث عن Cargo Msg",
+        "notFound": "لم يتم العثور على Cargo Msgs"
+      },
+      "created": "Cargo Msg جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "Cargo Msg تم تحديثه بالمعرف { param }",
+      "deleted": "Cargo Msg تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Cargo Msg { id }؟"
+      },
+      "detail": {
+        "title": "Cargo Msg"
+      },
+      "id": "ID",
+      "msg": "Msg",
+      "fromUserEncId": "From User Enc Id",
+      "toUserEncId": "To User Enc Id",
+      "cargoRequestId": "Cargo Request Id"
+    }
+  }
+}

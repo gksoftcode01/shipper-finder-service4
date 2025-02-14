@@ -1,0 +1,33 @@
+{
+  "annotations": {
+    "changelogDate": "20250214212255"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "rate",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "note",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "rateDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "ratedByEncId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "ratedEncId",
+      "fieldType": "UUID"
+    }
+  ],
+  "name": "UserRate",
+  "pagination": "infinite-scroll",
+  "relationships": [],
+  "service": "serviceImpl"
+}

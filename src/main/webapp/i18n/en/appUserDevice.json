@@ -1,0 +1,29 @@
+{
+  "shipperfinderservice4App": {
+    "appUserDevice": {
+      "home": {
+        "title": "App User Devices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new App User Device",
+        "createOrEditLabel": "Create or edit a App User Device",
+        "search": "Search for App User Device",
+        "notFound": "No App User Devices found"
+      },
+      "created": "A new App User Device is created with identifier { param }",
+      "updated": "A App User Device is updated with identifier { param }",
+      "deleted": "A App User Device is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete App User Device { id }?"
+      },
+      "detail": {
+        "title": "App User Device"
+      },
+      "id": "ID",
+      "deviceCode": "Device Code",
+      "notificationToken": "Notification Token",
+      "lastLogin": "Last Login",
+      "active": "Active",
+      "userEncId": "User Enc Id"
+    }
+  }
+}

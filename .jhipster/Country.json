@@ -1,0 +1,66 @@
+{
+  "annotations": {
+    "changelogDate": "20250214212253"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "localName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "iso2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "iso3",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numericCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phoneCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "currency",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "currencyName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "currencySymbol",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emoji",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emojiU",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Country",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "stateProvince",
+      "otherEntityRelationshipName": "country",
+      "relationshipName": "stateProvince",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

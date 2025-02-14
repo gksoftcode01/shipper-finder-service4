@@ -1,0 +1,31 @@
+{
+  "shipperfinderservice4App": {
+    "itemType": {
+      "home": {
+        "title": "Item Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Item Type",
+        "createOrEditLabel": "Create or edit a Item Type",
+        "search": "Search for Item Type",
+        "notFound": "No Item Types found"
+      },
+      "created": "A new Item Type is created with identifier { param }",
+      "updated": "A Item Type is updated with identifier { param }",
+      "deleted": "A Item Type is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Item Type { id }?"
+      },
+      "detail": {
+        "title": "Item Type"
+      },
+      "id": "ID",
+      "name": "Name",
+      "nameEn": "Name En",
+      "nameAr": "Name Ar",
+      "nameFr": "Name Fr",
+      "nameDe": "Name De",
+      "nameUrdu": "Name Urdu",
+      "isActive": "Is Active"
+    }
+  }
+}

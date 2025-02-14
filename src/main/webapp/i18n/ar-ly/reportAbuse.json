@@ -1,0 +1,29 @@
+{
+  "shipperfinderservice4App": {
+    "reportAbuse": {
+      "home": {
+        "title": "Report Abuses",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Report Abuse جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Report Abuse",
+        "search": "البحث عن Report Abuse",
+        "notFound": "لم يتم العثور على Report Abuses"
+      },
+      "created": "Report Abuse جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "Report Abuse تم تحديثه بالمعرف { param }",
+      "deleted": "Report Abuse تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Report Abuse { id }؟"
+      },
+      "detail": {
+        "title": "Report Abuse"
+      },
+      "id": "ID",
+      "reportByEncId": "Report By Enc Id",
+      "reportedAgainstEncId": "Reported Against Enc Id",
+      "reportDate": "Report Date",
+      "reportData": "Report Data",
+      "reportStatus": "Report Status"
+    }
+  }
+}

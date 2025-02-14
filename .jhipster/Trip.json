@@ -1,0 +1,86 @@
+{
+  "annotations": {
+    "changelogDate": "20250214212304"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "tripDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "arriveDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "maxWeight",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "notes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "isNegotiate",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "TripStatus",
+      "fieldValues": "NEW,PENDING,CANCELLED,PUBLISHED,REJECTED,COMPLETED"
+    },
+    {
+      "fieldName": "createdByEncId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "encId",
+      "fieldType": "UUID"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Trip",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "tripItem",
+      "relationshipName": "items",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "country",
+      "relationshipName": "fromCountry",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "country",
+      "relationshipName": "toCountry",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "stateProvince",
+      "relationshipName": "fromState",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "stateProvince",
+      "relationshipName": "toState",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

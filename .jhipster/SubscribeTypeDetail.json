@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20250214212301"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "price",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "maxTrip",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "maxItems",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "maxRequest",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "maxNumberView",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "SubscribeTypeDetail",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityField": "nameEn",
+      "otherEntityName": "subscribeType",
+      "otherEntityRelationshipName": "subscribeTypeDetail",
+      "relationshipName": "subscribeType",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

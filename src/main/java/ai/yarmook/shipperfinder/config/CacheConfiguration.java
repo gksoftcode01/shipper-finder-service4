@@ -50,6 +50,34 @@ public class CacheConfiguration {
             createCache(cm, ai.yarmook.shipperfinder.domain.User.class.getName());
             createCache(cm, ai.yarmook.shipperfinder.domain.Authority.class.getName());
             createCache(cm, ai.yarmook.shipperfinder.domain.User.class.getName() + ".authorities");
+            createCache(cm, ai.yarmook.shipperfinder.domain.StateProvince.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.Country.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.Country.class.getName() + ".stateProvinces");
+            createCache(cm, ai.yarmook.shipperfinder.domain.ReportAbuse.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.UserRate.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.ItemType.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.Item.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.AppUser.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.AppUserDevice.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.SubscribeType.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.SubscribeTypeDetail.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.UserSubscribe.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.Languages.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.Trip.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.Trip.class.getName() + ".items");
+            createCache(cm, ai.yarmook.shipperfinder.domain.Tag.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.Tag.class.getName() + ".tripItems");
+            createCache(cm, ai.yarmook.shipperfinder.domain.Tag.class.getName() + ".cargoRequestItems");
+            createCache(cm, ai.yarmook.shipperfinder.domain.Unit.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.TripItem.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.TripItem.class.getName() + ".tags");
+            createCache(cm, ai.yarmook.shipperfinder.domain.CargoRequest.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.CargoRequest.class.getName() + ".items");
+            createCache(cm, ai.yarmook.shipperfinder.domain.CargoRequestItem.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.CargoRequestItem.class.getName() + ".tags");
+            createCache(cm, ai.yarmook.shipperfinder.domain.ShowNumberHistory.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.TripMsg.class.getName());
+            createCache(cm, ai.yarmook.shipperfinder.domain.CargoMsg.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

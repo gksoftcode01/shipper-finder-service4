@@ -1,0 +1,10 @@
+{
+  "shipperfinderservice4App": {
+    "SubscribeTypeEnum": {
+      "null": "",
+      "NORMAL": "NORMAL",
+      "PREMIUM": "PREMIUM",
+      "CORPORATE": "CORPORATE"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "shipperfinderservice4App": {
+    "userRate": {
+      "home": {
+        "title": "User Rates",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء User Rate جديد",
+        "createOrEditLabel": "إنشاء أو تعديل User Rate",
+        "search": "البحث عن User Rate",
+        "notFound": "لم يتم العثور على User Rates"
+      },
+      "created": "User Rate جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "User Rate تم تحديثه بالمعرف { param }",
+      "deleted": "User Rate تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف User Rate { id }؟"
+      },
+      "detail": {
+        "title": "User Rate"
+      },
+      "id": "ID",
+      "rate": "Rate",
+      "note": "Note",
+      "rateDate": "Rate Date",
+      "ratedByEncId": "Rated By Enc Id",
+      "ratedEncId": "Rated Enc Id"
+    }
+  }
+}

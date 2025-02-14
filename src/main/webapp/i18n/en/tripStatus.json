@@ -1,0 +1,13 @@
+{
+  "shipperfinderservice4App": {
+    "TripStatus": {
+      "null": "",
+      "NEW": "NEW",
+      "PENDING": "PENDING",
+      "CANCELLED": "CANCELLED",
+      "PUBLISHED": "PUBLISHED",
+      "REJECTED": "REJECTED",
+      "COMPLETED": "COMPLETED"
+    }
+  }
+}
