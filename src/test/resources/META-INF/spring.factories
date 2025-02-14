@@ -1,0 +1,5 @@
+org.springframework.test.context.ContextCustomizerFactory = \
+    ai.yarmook.shipperfinder.config.\
+    SqlTestContainersSpringContextCustomizerFactory,ai.yarmook.shipperfinder.\
+    config.TestContainersSpringContextCustomizerFactory,ai.yarmook.\
+    shipperfinder.config.KafkaTestContainersSpringContextCustomizerFactory
