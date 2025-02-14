@@ -1,0 +1,36 @@
+{
+  "shipperfinderservice4App": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Country جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Country",
+        "search": "البحث عن Country",
+        "notFound": "لم يتم العثور على Countries"
+      },
+      "created": "Country جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "Country تم تحديثه بالمعرف { param }",
+      "deleted": "Country تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Country { id }؟"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "id": "ID",
+      "name": "Name",
+      "localName": "Local Name",
+      "iso2": "Iso 2",
+      "iso3": "Iso 3",
+      "numericCode": "Numeric Code",
+      "phoneCode": "Phone Code",
+      "currency": "Currency",
+      "currencyName": "Currency Name",
+      "currencySymbol": "Currency Symbol",
+      "emoji": "Emoji",
+      "emojiU": "Emoji U",
+      "stateProvince": "State Province"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "shipperfinderservice4App": {
+    "item": {
+      "home": {
+        "title": "Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Item",
+        "createOrEditLabel": "Create or edit a Item",
+        "search": "Search for Item",
+        "notFound": "No Items found"
+      },
+      "created": "A new Item is created with identifier { param }",
+      "updated": "A Item is updated with identifier { param }",
+      "deleted": "A Item is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Item { id }?"
+      },
+      "detail": {
+        "title": "Item"
+      },
+      "id": "ID",
+      "name": "Name",
+      "nameEn": "Name En",
+      "nameAr": "Name Ar",
+      "nameFr": "Name Fr",
+      "nameDe": "Name De",
+      "nameUrdu": "Name Urdu",
+      "isActive": "Is Active",
+      "defaultUOM": "Default UOM",
+      "itemType": "Item Type"
+    }
+  }
+}

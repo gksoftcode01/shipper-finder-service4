@@ -1,0 +1,30 @@
+{
+  "shipperfinderservice4App": {
+    "tripItem": {
+      "home": {
+        "title": "Trip Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Trip Item",
+        "createOrEditLabel": "Create or edit a Trip Item",
+        "search": "Search for Trip Item",
+        "notFound": "No Trip Items found"
+      },
+      "created": "A new Trip Item is created with identifier { param }",
+      "updated": "A Trip Item is updated with identifier { param }",
+      "deleted": "A Trip Item is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Trip Item { id }?"
+      },
+      "detail": {
+        "title": "Trip Item"
+      },
+      "id": "ID",
+      "itemPrice": "Item Price",
+      "maxQty": "Max Qty",
+      "item": "Item",
+      "unit": "Unit",
+      "tag": "Tag",
+      "trip": "Trip"
+    }
+  }
+}

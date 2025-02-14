@@ -1,0 +1,25 @@
+{
+  "shipperfinderservice4App": {
+    "languages": {
+      "home": {
+        "title": "Languages",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Languages جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Languages",
+        "search": "البحث عن Languages",
+        "notFound": "لم يتم العثور على Languages"
+      },
+      "created": "Languages جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "Languages تم تحديثه بالمعرف { param }",
+      "deleted": "Languages تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Languages { id }؟"
+      },
+      "detail": {
+        "title": "Languages"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

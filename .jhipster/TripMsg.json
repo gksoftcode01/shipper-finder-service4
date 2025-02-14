@@ -1,0 +1,30 @@
+{
+  "annotations": {
+    "changelogDate": "20250214212311"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "msg",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fromUserEncId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "toUserEncId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "tripId",
+      "fieldType": "Long"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "TripMsg",
+  "pagination": "infinite-scroll",
+  "relationships": [],
+  "service": "serviceImpl"
+}

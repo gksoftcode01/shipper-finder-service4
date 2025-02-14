@@ -1,0 +1,28 @@
+{
+  "shipperfinderservice4App": {
+    "cargoMsg": {
+      "home": {
+        "title": "Cargo Msgs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Cargo Msg",
+        "createOrEditLabel": "Create or edit a Cargo Msg",
+        "search": "Search for Cargo Msg",
+        "notFound": "No Cargo Msgs found"
+      },
+      "created": "A new Cargo Msg is created with identifier { param }",
+      "updated": "A Cargo Msg is updated with identifier { param }",
+      "deleted": "A Cargo Msg is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Cargo Msg { id }?"
+      },
+      "detail": {
+        "title": "Cargo Msg"
+      },
+      "id": "ID",
+      "msg": "Msg",
+      "fromUserEncId": "From User Enc Id",
+      "toUserEncId": "To User Enc Id",
+      "cargoRequestId": "Cargo Request Id"
+    }
+  }
+}

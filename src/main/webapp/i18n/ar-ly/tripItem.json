@@ -1,0 +1,30 @@
+{
+  "shipperfinderservice4App": {
+    "tripItem": {
+      "home": {
+        "title": "Trip Items",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Trip Item جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Trip Item",
+        "search": "البحث عن Trip Item",
+        "notFound": "لم يتم العثور على Trip Items"
+      },
+      "created": "Trip Item جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "Trip Item تم تحديثه بالمعرف { param }",
+      "deleted": "Trip Item تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Trip Item { id }؟"
+      },
+      "detail": {
+        "title": "Trip Item"
+      },
+      "id": "ID",
+      "itemPrice": "Item Price",
+      "maxQty": "Max Qty",
+      "item": "Item",
+      "unit": "Unit",
+      "tag": "Tag",
+      "trip": "Trip"
+    }
+  }
+}

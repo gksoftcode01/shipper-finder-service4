@@ -1,0 +1,29 @@
+{
+  "shipperfinderservice4App": {
+    "userSubscribe": {
+      "home": {
+        "title": "User Subscribes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new User Subscribe",
+        "createOrEditLabel": "Create or edit a User Subscribe",
+        "search": "Search for User Subscribe",
+        "notFound": "No User Subscribes found"
+      },
+      "created": "A new User Subscribe is created with identifier { param }",
+      "updated": "A User Subscribe is updated with identifier { param }",
+      "deleted": "A User Subscribe is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete User Subscribe { id }?"
+      },
+      "detail": {
+        "title": "User Subscribe"
+      },
+      "id": "ID",
+      "fromDate": "From Date",
+      "toDate": "To Date",
+      "isActive": "Is Active",
+      "subscribedUserEncId": "Subscribed User Enc Id",
+      "subscribeType": "Subscribe Type"
+    }
+  }
+}

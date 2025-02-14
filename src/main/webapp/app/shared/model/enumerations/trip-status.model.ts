@@ -1,0 +1,13 @@
+export enum TripStatus {
+  NEW = 'NEW',
+
+  PENDING = 'PENDING',
+
+  CANCELLED = 'CANCELLED',
+
+  PUBLISHED = 'PUBLISHED',
+
+  REJECTED = 'REJECTED',
+
+  COMPLETED = 'COMPLETED',
+}

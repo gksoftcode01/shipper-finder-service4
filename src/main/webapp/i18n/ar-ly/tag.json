@@ -1,0 +1,33 @@
+{
+  "shipperfinderservice4App": {
+    "tag": {
+      "home": {
+        "title": "Tags",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Tag جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Tag",
+        "search": "البحث عن Tag",
+        "notFound": "لم يتم العثور على Tags"
+      },
+      "created": "Tag جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "Tag تم تحديثه بالمعرف { param }",
+      "deleted": "Tag تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Tag { id }؟"
+      },
+      "detail": {
+        "title": "Tag"
+      },
+      "id": "ID",
+      "name": "Name",
+      "nameEn": "Name En",
+      "nameAr": "Name Ar",
+      "nameFr": "Name Fr",
+      "nameDe": "Name De",
+      "nameUrdu": "Name Urdu",
+      "iconUrl": "Icon Url",
+      "tripItem": "Trip Item",
+      "cargoRequestItem": "Cargo Request Item"
+    }
+  }
+}

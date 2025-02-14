@@ -1,0 +1,17 @@
+{
+  "annotations": {
+    "changelogDate": "20250214212303"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Languages",
+  "pagination": "infinite-scroll",
+  "relationships": [],
+  "service": "serviceImpl"
+}

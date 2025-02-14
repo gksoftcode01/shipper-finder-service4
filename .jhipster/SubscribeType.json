@@ -1,0 +1,74 @@
+{
+  "annotations": {
+    "changelogDate": "20250214212300"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "type",
+      "fieldType": "SubscribeTypeEnum",
+      "fieldValues": "NORMAL,PREMIUM,CORPORATE"
+    },
+    {
+      "fieldName": "nameEn",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nameAr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nameFr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nameDe",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nameUrdu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "details",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "detailsEn",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "detailsAr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "detailsFr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "detailsDe",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "detailsUrdu",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "SubscribeType",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "options": {
+        "onDelete": "CASCADE"
+      },
+      "otherEntityName": "subscribeTypeDetail",
+      "otherEntityRelationshipName": "subscribeType",
+      "relationshipName": "subscribeTypeDetail",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

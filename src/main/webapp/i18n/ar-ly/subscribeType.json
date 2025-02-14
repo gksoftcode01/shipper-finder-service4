@@ -1,0 +1,37 @@
+{
+  "shipperfinderservice4App": {
+    "subscribeType": {
+      "home": {
+        "title": "Subscribe Types",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Subscribe Type جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Subscribe Type",
+        "search": "البحث عن Subscribe Type",
+        "notFound": "لم يتم العثور على Subscribe Types"
+      },
+      "created": "Subscribe Type جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "Subscribe Type تم تحديثه بالمعرف { param }",
+      "deleted": "Subscribe Type تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Subscribe Type { id }؟"
+      },
+      "detail": {
+        "title": "Subscribe Type"
+      },
+      "id": "ID",
+      "type": "Type",
+      "nameEn": "Name En",
+      "nameAr": "Name Ar",
+      "nameFr": "Name Fr",
+      "nameDe": "Name De",
+      "nameUrdu": "Name Urdu",
+      "details": "Details",
+      "detailsEn": "Details En",
+      "detailsAr": "Details Ar",
+      "detailsFr": "Details Fr",
+      "detailsDe": "Details De",
+      "detailsUrdu": "Details Urdu",
+      "subscribeTypeDetail": "Subscribe Type Detail"
+    }
+  }
+}

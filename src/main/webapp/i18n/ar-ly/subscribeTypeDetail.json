@@ -1,0 +1,30 @@
+{
+  "shipperfinderservice4App": {
+    "subscribeTypeDetail": {
+      "home": {
+        "title": "Subscribe Type Details",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Subscribe Type Detail جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Subscribe Type Detail",
+        "search": "البحث عن Subscribe Type Detail",
+        "notFound": "لم يتم العثور على Subscribe Type Details"
+      },
+      "created": "Subscribe Type Detail جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "Subscribe Type Detail تم تحديثه بالمعرف { param }",
+      "deleted": "Subscribe Type Detail تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Subscribe Type Detail { id }؟"
+      },
+      "detail": {
+        "title": "Subscribe Type Detail"
+      },
+      "id": "ID",
+      "price": "Price",
+      "maxTrip": "Max Trip",
+      "maxItems": "Max Items",
+      "maxRequest": "Max Request",
+      "maxNumberView": "Max Number View",
+      "subscribeType": "Subscribe Type"
+    }
+  }
+}

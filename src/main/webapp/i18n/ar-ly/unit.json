@@ -1,0 +1,30 @@
+{
+  "shipperfinderservice4App": {
+    "unit": {
+      "home": {
+        "title": "Units",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Unit جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Unit",
+        "search": "البحث عن Unit",
+        "notFound": "لم يتم العثور على Units"
+      },
+      "created": "Unit جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "Unit تم تحديثه بالمعرف { param }",
+      "deleted": "Unit تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Unit { id }؟"
+      },
+      "detail": {
+        "title": "Unit"
+      },
+      "id": "ID",
+      "name": "Name",
+      "nameEn": "Name En",
+      "nameAr": "Name Ar",
+      "nameFr": "Name Fr",
+      "nameDe": "Name De",
+      "nameUrdu": "Name Urdu"
+    }
+  }
+}

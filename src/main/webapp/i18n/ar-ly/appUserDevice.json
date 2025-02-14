@@ -1,0 +1,29 @@
+{
+  "shipperfinderservice4App": {
+    "appUserDevice": {
+      "home": {
+        "title": "App User Devices",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء App User Device جديد",
+        "createOrEditLabel": "إنشاء أو تعديل App User Device",
+        "search": "البحث عن App User Device",
+        "notFound": "لم يتم العثور على App User Devices"
+      },
+      "created": "App User Device جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "App User Device تم تحديثه بالمعرف { param }",
+      "deleted": "App User Device تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف App User Device { id }؟"
+      },
+      "detail": {
+        "title": "App User Device"
+      },
+      "id": "ID",
+      "deviceCode": "Device Code",
+      "notificationToken": "Notification Token",
+      "lastLogin": "Last Login",
+      "active": "Active",
+      "userEncId": "User Enc Id"
+    }
+  }
+}

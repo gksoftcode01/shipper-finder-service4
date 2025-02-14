@@ -1,0 +1,37 @@
+{
+  "shipperfinderservice4App": {
+    "appUser": {
+      "home": {
+        "title": "App Users",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء App User جديد",
+        "createOrEditLabel": "إنشاء أو تعديل App User",
+        "search": "البحث عن App User",
+        "notFound": "لم يتم العثور على App Users"
+      },
+      "created": "App User جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "App User تم تحديثه بالمعرف { param }",
+      "deleted": "App User تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف App User { id }؟"
+      },
+      "detail": {
+        "title": "App User"
+      },
+      "id": "ID",
+      "birthDate": "Birth Date",
+      "gender": "Gender",
+      "registerDate": "Register Date",
+      "phoneNumber": "Phone Number",
+      "mobileNumber": "Mobile Number",
+      "fullName": "Full Name",
+      "isVerified": "Is Verified",
+      "userId": "User Id",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "encId": "Enc Id",
+      "preferdLanguage": "Preferd Language",
+      "location": "Location"
+    }
+  }
+}

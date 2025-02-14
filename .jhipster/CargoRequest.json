@@ -1,0 +1,82 @@
+{
+  "annotations": {
+    "changelogDate": "20250214212308"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "createDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "validUntil",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "CargoRequestStatus",
+      "fieldValues": "NEW,PENDING,CANCELLED,PUBLISHED,REJECTED,COMPLETED"
+    },
+    {
+      "fieldName": "isNegotiable",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "budget",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "createdByEncId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "takenByEncId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "encId",
+      "fieldType": "UUID"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "CargoRequest",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "cargoRequestItem",
+      "relationshipName": "items",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "country",
+      "relationshipName": "fromCountry",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "country",
+      "relationshipName": "toCountry",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "stateProvince",
+      "relationshipName": "fromState",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "stateProvince",
+      "relationshipName": "toState",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,13 @@
+export enum CargoRequestStatus {
+  NEW = 'NEW',
+
+  PENDING = 'PENDING',
+
+  CANCELLED = 'CANCELLED',
+
+  PUBLISHED = 'PUBLISHED',
+
+  REJECTED = 'REJECTED',
+
+  COMPLETED = 'COMPLETED',
+}

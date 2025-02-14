@@ -1,0 +1,31 @@
+{
+  "shipperfinderservice4App": {
+    "itemType": {
+      "home": {
+        "title": "Item Types",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Item Type جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Item Type",
+        "search": "البحث عن Item Type",
+        "notFound": "لم يتم العثور على Item Types"
+      },
+      "created": "Item Type جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "Item Type تم تحديثه بالمعرف { param }",
+      "deleted": "Item Type تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Item Type { id }؟"
+      },
+      "detail": {
+        "title": "Item Type"
+      },
+      "id": "ID",
+      "name": "Name",
+      "nameEn": "Name En",
+      "nameAr": "Name Ar",
+      "nameFr": "Name Fr",
+      "nameDe": "Name De",
+      "nameUrdu": "Name Urdu",
+      "isActive": "Is Active"
+    }
+  }
+}

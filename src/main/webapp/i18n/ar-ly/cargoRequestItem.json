@@ -1,0 +1,30 @@
+{
+  "shipperfinderservice4App": {
+    "cargoRequestItem": {
+      "home": {
+        "title": "Cargo Request Items",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Cargo Request Item جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Cargo Request Item",
+        "search": "البحث عن Cargo Request Item",
+        "notFound": "لم يتم العثور على Cargo Request Items"
+      },
+      "created": "Cargo Request Item جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "Cargo Request Item تم تحديثه بالمعرف { param }",
+      "deleted": "Cargo Request Item تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Cargo Request Item { id }؟"
+      },
+      "detail": {
+        "title": "Cargo Request Item"
+      },
+      "id": "ID",
+      "maxQty": "Max Qty",
+      "photoUrl": "Photo Url",
+      "item": "Item",
+      "unit": "Unit",
+      "tag": "Tag",
+      "cargoRequest": "Cargo Request"
+    }
+  }
+}

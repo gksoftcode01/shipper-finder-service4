@@ -1,0 +1,28 @@
+{
+  "shipperfinderservice4App": {
+    "stateProvince": {
+      "home": {
+        "title": "State Provinces",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء State Province جديد",
+        "createOrEditLabel": "إنشاء أو تعديل State Province",
+        "search": "البحث عن State Province",
+        "notFound": "لم يتم العثور على State Provinces"
+      },
+      "created": "State Province جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "State Province تم تحديثه بالمعرف { param }",
+      "deleted": "State Province تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف State Province { id }؟"
+      },
+      "detail": {
+        "title": "State Province"
+      },
+      "id": "ID",
+      "name": "Name",
+      "localName": "Local Name",
+      "isoCode": "Iso Code",
+      "country": "Country"
+    }
+  }
+}

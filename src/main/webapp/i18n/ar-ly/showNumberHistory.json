@@ -1,0 +1,28 @@
+{
+  "shipperfinderservice4App": {
+    "showNumberHistory": {
+      "home": {
+        "title": "Show Number Histories",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Show Number History جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Show Number History",
+        "search": "البحث عن Show Number History",
+        "notFound": "لم يتم العثور على Show Number Histories"
+      },
+      "created": "Show Number History جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "Show Number History تم تحديثه بالمعرف { param }",
+      "deleted": "Show Number History تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Show Number History { id }؟"
+      },
+      "detail": {
+        "title": "Show Number History"
+      },
+      "id": "ID",
+      "createdDate": "Created Date",
+      "actionByEncId": "Action By Enc Id",
+      "entityType": "Entity Type",
+      "entityEncId": "Entity Enc Id"
+    }
+  }
+}

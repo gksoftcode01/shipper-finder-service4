@@ -1,0 +1,38 @@
+{
+  "shipperfinderservice4App": {
+    "trip": {
+      "home": {
+        "title": "Trips",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Trip جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Trip",
+        "search": "البحث عن Trip",
+        "notFound": "لم يتم العثور على Trips"
+      },
+      "created": "Trip جديد تم إنشاؤه بالمعرف { param }",
+      "updated": "Trip تم تحديثه بالمعرف { param }",
+      "deleted": "Trip تم حذفه بالمعرف { param }",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Trip { id }؟"
+      },
+      "detail": {
+        "title": "Trip"
+      },
+      "id": "ID",
+      "tripDate": "Trip Date",
+      "arriveDate": "Arrive Date",
+      "maxWeight": "Max Weight",
+      "notes": "Notes",
+      "createDate": "Create Date",
+      "isNegotiate": "Is Negotiate",
+      "status": "Status",
+      "createdByEncId": "Created By Enc Id",
+      "encId": "Enc Id",
+      "items": "Items",
+      "fromCountry": "From Country",
+      "toCountry": "To Country",
+      "fromState": "From State",
+      "toState": "To State"
+    }
+  }
+}
